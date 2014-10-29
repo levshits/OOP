@@ -1,0 +1,60 @@
+--- !ruby/object:FigureContainer
+list:
+- !ruby/object:Line
+  start_x: 171
+  start_y: 135
+  x: 306
+  y: 247
+  color: red
+- !ruby/object:Line
+  start_x: 255
+  start_y: 141
+  x: 154
+  y: 253
+  color: red
+- !ruby/object:Line
+  start_x: 126
+  start_y: 166
+  x: 218
+  y: 261
+  color: &1 !ruby/string
+    str: "#00ff00"
+    encoding: cp866
+- !ruby/object:Line
+  start_x: 288
+  start_y: 114
+  x: 115
+  y: 224
+  color: *1
+- !ruby/object:Line
+  start_x: 84
+  start_y: 94
+  x: 253
+  y: 228
+  color: *1
+- !ruby/object:Ellipse
+  start_x: 107
+  start_y: 75
+  x: 232
+  y: 212
+  color: *1
+- !ruby/object:Ellipse
+  start_x: 63
+  start_y: 55
+  x: 216
+  y: 158
+  color: *1
+- !ruby/object:Rectangle
+  start_x: 155
+  start_y: 49
+  x: 245
+  y: 230
+  color: *1
+- !ruby/object:Rectangle
+  start_x: 80
+  start_y: 167
+  x: 268
+  y: 266
+  color: !ruby/string
+    str: "#80ffff"
+    encoding: cp866
